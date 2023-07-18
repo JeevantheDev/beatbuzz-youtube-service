@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/JeevanDash/.nvm/versions/node/v16.18.1/bin/node /usr/local/bin/yarn add puppeteer
+
+PATH: 
+  /Users/JeevanDash/.rvm/gems/ruby-2.7.6/bin:/Users/JeevanDash/.rvm/gems/ruby-2.7.6@global/bin:/Users/JeevanDash/.rvm/rubies/ruby-2.7.6/bin:/Users/JeevanDash/.nvm/versions/node/v16.18.1/bin:/usr/local/opt/inetutils/libexec/gnubin:/usr/local/opt/ruby@2.7/bin:/usr/local/opt/ruby/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/JeevanDash/.rvm/gems/ruby-2.7.6/bin:/Users/JeevanDash/.rvm/gems/ruby-2.7.6@global/bin:/Users/JeevanDash/.rvm/rubies/ruby-2.7.6/bin:/Users/JeevanDash/.nvm/versions/node/v16.18.1/bin:/usr/local/opt/inetutils/libexec/gnubin:/usr/local/opt/ruby@2.7/bin:/usr/local/opt/ruby/bin:/Users/JeevanDash/.cargo/bin:/Users/JeevanDash/Library/Android/sdk/emulator:/Users/JeevanDash/Library/Android/sdk/platform-tools:/Users/JeevanDash/.rvm/bin:/Users/JeevanDash/Library/Android/sdk/emulator:/Users/JeevanDash/Library/Android/sdk/platform-tools:/Users/JeevanDash/.rvm/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Failed to replace env in config: ${CODEARTIFACT_AUTH_TOKEN}
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:94926:13
+      at String.replace (<anonymous>)
+      at envReplace (/usr/local/lib/node_modules/yarn/lib/cli.js:94921:16)
+      at Function.normalizeConfig (/usr/local/lib/node_modules/yarn/lib/cli.js:31930:69)
+      at NpmRegistry.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:31960:34)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "beatbuzz-scraper-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
